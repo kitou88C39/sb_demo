@@ -17,4 +17,9 @@ public class HelloController {
   public String greet() {
     return "こんにちは";
   }
+
+  @GetMapping("/sayHello")
+  public String sayHello() {
+    return "hello";
+  }
 }
